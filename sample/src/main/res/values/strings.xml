@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="hidden">Hidden</string>
+    <string name="show_keyboard_height">Visible. size : %dpx</string>
+</resources>
