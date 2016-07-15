@@ -29,6 +29,10 @@ RxKeyboard.instance().requestKeyboardUpdates(this).subscribe(new Action1<Keyboar
         });
 ```
 
+## Sample App
+
+<img src="https://cloud.githubusercontent.com/assets/1778155/16866439/94b017c0-4a74-11e6-9b27-9381fd83b7f5.png" width="400">
+
 ## Authors
 * [Sergey Glebov](mailto:glebov@mlsdev.com) ([frederikos][github-frederikos]), MLSDev 
 
