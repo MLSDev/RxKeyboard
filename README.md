@@ -2,6 +2,18 @@
 
 RxKeyboard is a software keyboard watcher based on JavaRx.
 
+## Setup
+
+To use this library your ` minSdkVersion` must be >= 15.
+
+In your build.gradle :
+
+```gradle
+dependencies {
+    compile 'com.mlsdev.rxkeyboard:library:1.0'
+    compile 'io.reactivex:rxjava:1.0.14'
+}
+```
 ## Example
 
 ```java
@@ -16,6 +28,10 @@ RxKeyboard.instance().requestKeyboardUpdates(this).subscribe(new Action1<Keyboar
             }
         });
 ```
+
+## Sample App
+
+<img src="https://cloud.githubusercontent.com/assets/1778155/16866498/ed5e03aa-4a74-11e6-8039-e80ec9bbc7af.png" width="400">
 
 ## Authors
 * [Sergey Glebov](mailto:glebov@mlsdev.com) ([frederikos][github-frederikos]), MLSDev 
